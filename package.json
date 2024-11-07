@@ -1,12 +1,13 @@
 {
-  "name": "可视化",
+  "name": "sparrow",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "prepare": "husky || true",
-    "commit": "git-cz"
+    "commit": "git-cz",
+    "lint": "eslint -fix"
   },
   "config": {
     "commitizen": {
@@ -17,18 +18,25 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@babel/cli": "^7.25.9",
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
     "@commitlint/config-conventional": "^19.5.0",
     "@eslint/js": "^9.14.0",
     "commitizen": "^4.3.1",
     "commitlint": "^19.5.0",
     "commitlint-config-cz": "^0.13.3",
+    "cross-env": "^7.0.3",
     "cz-conventional-changelog": "^3.3.0",
     "cz-customizable": "^7.2.1",
+    "electron": "^33.1.0",
     "eslint": "^9.14.0",
     "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-jest": "^28.9.0",
     "eslint-plugin-prettier": "^5.2.1",
     "globals": "^15.12.0",
     "husky": "^9.1.6",
+    "jest": "24",
     "lint-staged": "^15.2.10",
     "prettier": "^3.3.3"
   }

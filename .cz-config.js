@@ -1,5 +1,4 @@
 'use strict'
-// eslint-disable-next-line no-undef
 module.exports = {
   types: [
     { value: '✨新增', name: '新增:    新的内容' },
