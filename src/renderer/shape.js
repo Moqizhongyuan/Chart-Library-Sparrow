@@ -1,6 +1,6 @@
 // src/renderer/shape.js
 
-import { applyAttributes, createSVGElement, mount } from './utils'
+import { applyAttributes, createSVGElement, mount } from '../utils'
 
 export function shape(type, context, attributes) {
   const { group } = context // 挂载元素
